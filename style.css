@@ -1,0 +1,63 @@
+/* Fundo escuro e texto branco elegante */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Título principal com destaque */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Destaque na palavra "strong" */
+strong {
+    color: #A055E6;
+}
+
+/* Texto do parágrafo com espaçamento e suavidade */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+/* Estilização dos botões/links */
+.botao {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #A055E6;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #7a35c2;
+}
+
+/* Imagem com sombra e centralização */
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(160, 85, 230, 0.5);
+}
+
+/* Centralizar tudo com flexbox */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
